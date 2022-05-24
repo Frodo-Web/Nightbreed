@@ -1,0 +1,36 @@
+{
+  "name": "Nightbreed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "web": "node web.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frodo-Web/Nightbreed.git"
+  },
+  "keywords": [],
+  "author": "Frodo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Frodo-Web/Nightbreed/issues"
+  },
+  "homepage": "https://github.com/Frodo-Web/Nightbreed#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/preset-env": "^7.18.0",
+    "@babel/preset-react": "^7.17.12",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
