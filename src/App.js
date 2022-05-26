@@ -1,8 +1,9 @@
 import React from 'react';
+import WebApp from './WebApp/WebApp';
 
 const App = () => {
 	return (
-	<h2>NIGHTBREED RADIO</h2>
+		<WebApp />
            )
 };
 
