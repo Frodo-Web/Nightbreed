@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 24px;
+}
+
+.header > .navbar {
+    flex-grow: 1;
+    align-self: center;
+}

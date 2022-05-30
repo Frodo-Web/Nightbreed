@@ -1,19 +1,19 @@
 import React from 'react';
-import { Outlet, Link } from 'react-router-dom';
+import Header from './components/Header';
+import Jumbotron from './components/Jumbotron';
+import Body from './components/Body';
+import Footer from './components/Footer';
 
 const Nightbreed = (props) => {
 	return (
-        <div>
-            <h2>NIGHTBREED RADIO</h2>
-            <nav>
-                <Link to='/'>Home</Link> | {" "}
-                <Link to='/shows'>Shows</Link> | {" "}
-                <Link to='/djs'>Djs</Link> | {" "}
-                <Link to='/schedule'>Shows</Link> | {" "}
-                <Link to='/contact'>Djs</Link>
-            </nav>
-            <h2>{props.bodyContent}</h2>
-        </div>
+        <>
+            <Header />
+            <Jumbotron />
+            {/*
+            <Body bodyContent={props.bodyContent}/>
+            */}
+            <Footer />
+        </>
            )
 };
 

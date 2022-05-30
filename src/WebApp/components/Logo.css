@@ -1,0 +1,17 @@
+@font-face {
+    font-family: IMFellEnglishSC-Regular;
+    src: url(../../fonts/IM_Fell_English_SC/IMFellEnglishSC-Regular.ttf);
+  }
+div .logo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin: auto;
+}
+#logoTitle {
+    font-size: 40px;
+    font-family: IMFellEnglishSC-Regular;
+}
+#logoDescription {
+    font-size: 18px;
+}

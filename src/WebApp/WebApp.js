@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import './WebApp.css';
 import Nightbreed from './Nightbreed';
 
 const WebApp = () => {
