@@ -1,0 +1,13 @@
+.djs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.djs > div {
+    display: flex;
+    column-gap: 15px;
+}
+.djs > div img {
+    width: 130px;
+    height: 130px;
+}

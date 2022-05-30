@@ -9,9 +9,7 @@ const Nightbreed = (props) => {
         <>
             <Header />
             <Jumbotron />
-            {/*
             <Body bodyContent={props.bodyContent}/>
-            */}
             <Footer />
         </>
            )

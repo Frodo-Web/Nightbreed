@@ -1,29 +1,24 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import './WebApp.css';
 import Nightbreed from './Nightbreed';
+import Home from './pages/Home';
+import Shows from './pages/Shows';
+import Djs from './pages/Djs';
+import Schedule from './pages/Schedule';
+import Contact from './pages/Contact';
 
 const WebApp = () => {
-    const content = {
-        home: 'WELCOME TO NIGHTBREED RADIO...',
-        shows: 'THE NIGHTBREED RADIO SHOWS ',
-        djs: 'THE NIGHTBREED RADIO DEEJAYS',
-        schedule: 'THE NIGHTBREED RADIO SCHEDULE',
-        contact: 'CONTACT US',
-    };
-
     return (
         <BrowserRouter>
             <Routes>
-                <Route path='/' element={<Nightbreed bodyContent={content.home} />} />
-                <Route path='shows' element={<Nightbreed bodyContent={content.shows} />} />
-                <Route path='djs' element={<Nightbreed bodyContent={content.djs} />} />
-                <Route path='schedule' element={<Nightbreed bodyContent={content.schedule} />} />
-                <Route path='contact' element={<Nightbreed bodyContent={content.contact} />} />
+                <Route path='/' element={<Nightbreed bodyContent={<Home />} />} />
+                <Route path='shows' element={<Nightbreed bodyContent={<Shows />} />} />
+                <Route path='djs' element={<Nightbreed bodyContent={<Djs />} />} />
+                <Route path='schedule' element={<Nightbreed bodyContent={<Schedule />} />} />
+                <Route path='contact' element={<Nightbreed bodyContent={<Contact />} />} />
             </Routes>
         </BrowserRouter>
     )
-
 }
 
 export default WebApp;

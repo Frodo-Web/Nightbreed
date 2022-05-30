@@ -3,7 +3,7 @@ import React from 'react';
 const Body = (props) => {
 	return (
         <div className='body'>
-            <div>{props.bodyContent}</div>
+            {props.bodyContent}
         </div>
            )
 };

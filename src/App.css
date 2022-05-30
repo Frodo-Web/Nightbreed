@@ -1,0 +1,30 @@
+#root {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-areas: 
+    "header header"
+    "jumbotron music"
+    "body music"
+    "footer footer";
+    max-width: 70%;
+    margin: 100px auto;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+#root .header {
+    grid-area: header;
+}
+#root .jumbotron {
+    grid-area: jumbotron;
+}
+#root .body {
+    grid-area: body;
+}
+#root .footer {
+    grid-area: footer;
+}
+#root .musicApp {
+    grid-area: music;
+}

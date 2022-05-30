@@ -1,4 +1,21 @@
 .musicApp {
-    position: fixed;
-    top: 30px;
+    margin-top: 24px;
+}
+.musicApp .songsHistory {
+    height: 50vh;
+    width: 300px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.musicApp .songsHistory .songElement {
+    display: flex;
+}
+.musicApp .songsHistory .songElement:hover {
+    border: 1px solid green;
+}
+.musicApp .songsHistory .songElement img {
+    width: 64px;
+    height: 64px;
 }

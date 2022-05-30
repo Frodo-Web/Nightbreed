@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Audio from './components/Audio';
 import PlayingNow from './components/PlayingNow.jsx';
 import './MusicApp.css';
@@ -6,12 +6,12 @@ import './MusicApp.css';
 const MusicApp = () => {
 
     const stream = 'http://199.101.51.168:8054/;stream.mp3';
-    const currentsong = 'http://199.101.51.168:8054/currentsong?sid=1';
+    const lastSongsAPI = '/lastSongsPlayed';
     
     return (
         <div className="musicApp">
             <Audio stream={stream} />
-           {/* <PlayingNow currentsong={currentsong} /> */}
+            <PlayingNow lastSongsAPI={lastSongsAPI} />
         </div>
     )
 }
