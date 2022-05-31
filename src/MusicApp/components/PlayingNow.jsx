@@ -25,7 +25,7 @@ const PlayingNow = (props) => {
                 list.push(<div className='songElement'>
                     <img src="images/song logo.jpg" alt="Nightbreed song logo"></img>
                     <div className='songData'>
-                        <div>{val.playedAt}</div>
+                        <div>{val.playedAt} {(key === '0') ? <span> Playing Now</span> : <></>}</div> 
                         <div>{val.songTitle}</div>
                     </div>
                 </div>);

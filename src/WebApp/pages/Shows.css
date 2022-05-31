@@ -1,31 +1,23 @@
-.djs {
+div .body .shows {
     display: flex;
     flex-direction: column;
     row-gap: 15px;
 }
-.djs > div {
-    display: flex;
-    column-gap: 15px;
-}
-.djs > div img {
-    width: 130px;
-    height: 130px;
-}
-div .body .djs > div > div {
+div .body .shows > div {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
 }
-div .body .djs #box1 h2 {
-    margin-left: 130px;
+div .body .shows h2 {
+    text-align: center;
     font-size: 30px;
 }
-div .body .djs h3 {
+div .body .shows h3 {
     margin-left: 5%;
     padding-left: 15px;
     font-size: 24px;
     border-left: 2px solid rgb(4, 174, 253);
 }
-div .body .djs p {
+div .body .shows p {
     font-size: 20px;
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import './Home.css';
 
 const Home = () => {
     return (
@@ -12,14 +13,14 @@ const Home = () => {
             </div>
             <div id="box2">
                 <h2>HOW TO LISTEN IN</h2>
-                <div>USE AUDIO PLAYER:</div>
+                <h3>USE AUDIO PLAYER:</h3>
                 <p>Hit the play button on audio player (please disable HTTPS-only mode for this website in your browser).</p>
-                <div>INTERNET-ENABLED DEVICES:</div>
+                <h3>INTERNET-ENABLED DEVICES:</h3>
                 <p>Use this URL to stream us directly through a browser- <a href="http://199.101.51.168:8054/;stream.mp3">http://199.101.51.168:8054/;stream.mp3</a></p>
             </div>
             <div id="box3">
                 <h2>WE'RE ON MIXCLOUD</h2>
-                <div>NEVER MISS A SHOW-EVER</div>
+                <h3>NEVER MISS A SHOW-EVER</h3>
                 <p>Stuck in traffic? The In-Laws paying an unexpected visit?
                     House on fire? No worries.
                     You can visit our Mixcloud page and browse through our monthly updated playlists <a href="https://www.mixcloud.com/NightbreedRadio/">RIGHT HERE</a>.

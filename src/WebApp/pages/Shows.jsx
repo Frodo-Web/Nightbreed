@@ -1,4 +1,5 @@
 import React from 'react';
+import './Shows.css';
 
 const Shows = () => {
     return (

@@ -1,0 +1,29 @@
+div .body .home {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+div .body .home > div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+div .body .home h2 {
+    text-align: center;
+    font-size: 30px;
+    border-left: 2px solid rgb(81, 255, 81);
+}
+div .body .home h3 {
+    margin-left: 5%;
+    font-size: 24px;
+}
+div .body .home p {
+    font-size: 20px;
+}
+div .body .home a {
+    color: rgb(28, 191, 255);
+}
+div .body .home a:hover {
+    color: rgb(33, 250, 4);
+    font-size: 26px;
+}

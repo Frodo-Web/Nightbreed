@@ -11,7 +11,6 @@ app.use(express.static(__dirname + '/public'));
 app.use(express.json());
 
 app.get('/lastSongsPlayed', function(request, response){
-	console.log(lastSongsList);
 	response.json(lastSongsList);
 });
 
