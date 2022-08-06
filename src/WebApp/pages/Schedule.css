@@ -1,34 +1,34 @@
-div .body .schedule {
+div.body .schedule {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
 }
-div .body .schedule h2{
+div.body .schedule h2{
     text-align: center;
     font-size: 30px;
 }
-div .body .schedule p {
+div.body .schedule p {
     font-size: 20px;
 }
-div .body .schedule ul {
+div.body .schedule ul {
     text-align: center;
 }
-div .body .schedule ul li {
+div.body .schedule ul li {
     margin-top: 5px;
 }
-div .body .schedule ul li .dayOfTheWeek {
+div.body .schedule ul li .dayOfTheWeek {
     font-size: 24px;
     font-weight: bold;
     color: red;
 }
-div .body .schedule ul li .show {
+div.body .schedule ul li .show {
     font-size: 20px;
     font-style: italic; 
 }
-div .body .schedule a {
+div.body .schedule a {
     color: rgb(28, 191, 255);
 }
-div .body .schedule a:hover {
+div.body .schedule a:hover {
     color: rgb(33, 250, 4);
     font-size: 26px;
 }

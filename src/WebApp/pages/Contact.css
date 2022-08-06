@@ -1,29 +1,29 @@
-div .body .contact {
+div.body .contact {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
 }
-div .body .contact > div {
+div.body .contact > div {
     width: 30vw;
     margin: 0 auto;
     border: 5px dashed white;
     padding: 20px;
 }
-div .body .contact > div:hover {
+div.body .contact > div:hover {
     border-color: rgb(4, 158, 247);
 }
-div .body .contact h2{
+div.body .contact h2{
     text-align: center;
     font-size: 30px;
 }
-div .body .contact p {
+div.body .contact p {
     font-size: 20px;
     text-align: center;
 }
-div .body .contact a {
+div.body .contact a {
     color: rgb(28, 191, 255);
 }
-div .body .contact a:hover {
+div.body .contact a:hover {
     color: rgb(33, 250, 4);
     font-size: 26px;
 }
