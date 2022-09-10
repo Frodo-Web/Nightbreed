@@ -4,14 +4,14 @@ Attempt to remake nightbreedradio.com with modern browser API and React.JS
 All rights and materials belong to © 2018 Nightbreed Radio (http://nightbreedradio.com )
 
 ## Install
-````
-git clone https://github.com/Frodo-Web/Nightbreed.git
-cd ./Nightbreed
-npm install
+````console
+foo@bar:~$ git clone https://github.com/Frodo-Web/Nightbreed.git
+foo@bar:~$ cd ./Nightbreed
+foo@bar:~$ npm install
 ````
 ## Run
-````
-npm run web // Wait until "listening on port 8080" output
+````console
+foo@bar:~$ npm run web // Wait until "listening on port 8080" output
 ````
 Make sure 8080 port is free and opened on your device.
 Open http://127.0.0.1:8080/ (OR <http://your_device_ip:8080>) in your browser, ensure your browser is not using https-only mode for this page, otherwise radio functionality will not work.
